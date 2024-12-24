@@ -1,0 +1,514 @@
+body {
+    font-size: 15pt;
+    background:white;
+}
+nav{
+  background: white;
+  width: 1200px;
+  box-shadow: 3px 3px 5px;
+}
+nav ul{
+  text-align: right;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+}
+nav li{
+  height: 50px;
+}
+
+nav a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+nav a:hover{
+  background: whitesmoke;
+}
+nav li:first-child{
+  margin-right: auto;
+}
+.hamburger {
+  display: none;
+  /* Hidden on large screens */
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.hamburger div {
+  background-color: black;
+  width: 25px;
+  height: 3px;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+h1, h2{
+  text-align: center;
+  position: relative;
+  left: 90px;
+}
+h1{
+  font-size: 90px;
+  color: #4B3621;
+}
+h2{
+  font-size: 60px;
+}
+img{
+  margin: 23px;
+  padding: 0 20px;
+}
+
+#Menu{
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 300px;
+  top: 30px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+.Tea{
+  background: black;
+  color: white;
+}
+
+#cuttingtea{
+  position: relative;
+  top: 35px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+#malaitea{
+  position: relative;
+  left: 570px;
+  bottom: 585px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+  
+}
+#greentea{
+  position: relative;
+  bottom: 250px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+#gingertea{
+  position: relative;
+  left: 570px;
+  bottom: 870px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+label#cuttingt{
+  position: relative;
+  left: 150px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px;
+}
+label#malait{
+  text-align: right;
+  position: relative;
+  right: -20px;
+  bottom: 620px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px;
+}
+label#greent{
+  position: relative;
+  bottom: 300px;
+  left: 150px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px;
+}
+label#gingert{
+  text-align: right;
+  position: relative;
+  bottom: 920px;
+  right: -120px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px;
+}
+#Coffee{
+  position: relative;
+  bottom: 750px;
+  background: black;
+  color: white;
+}
+img#Blackcoffee{
+  position: relative;
+  bottom: 500px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#milkcoffee{
+  position: relative;
+  left: 600px;
+  bottom: 1110px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#cappuccino{
+  position: relative;
+  bottom: 800px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#coldcoffee{
+  position: relative;
+  left: 600px;
+  bottom: 1410px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#HotChoco{
+  position: relative;
+  bottom: 1100px;
+  left: 300px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+label#BlackC{
+  text-align: left;
+  position: relative;
+  bottom: 600px;
+  left: 90px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px;
+}
+label#MilkC{
+  text-align: right;
+  position: relative;
+  bottom: 1210px;
+  right: -150px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px;
+}
+label#Cappacchino{
+  text-align: left;
+  font-size: 50px;
+  position: relative;
+  bottom: 880px;
+  left: 100px;
+  text-shadow: 2px 2px 4px;
+}
+label#ColdC{
+  text-align: right;
+  font-size: 50px;
+  position: relative;;
+  bottom: 1500px;
+  right:-130px;
+  text-shadow: 2px 2px 4px;
+}
+label#HotC{
+  text-align: center;
+  position: relative;
+  bottom: 1150px;
+  left: 110px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px;
+}
+#Snacks{
+  position: relative;
+  bottom: 980px;
+  background: black;
+  color: white;
+}
+img#Buttertoast{
+  position: relative;
+  bottom: 800px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#Malaitoast{
+  position: relative;
+  left: 600px;
+  bottom: 1410px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#Maggie{
+  position: relative;
+  bottom: 1100px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#Vegmaggie{
+  position: relative;
+  left: 600px;
+  bottom: 1710px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#FrenchFries{
+  position: relative;
+  bottom: 1450px;
+  left: 300px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+label#ButterT{
+  text-align: left;
+  position: relative;
+  bottom: 850px;
+  left: 100px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px;
+}
+label#MalaiT{
+  text-align: right;
+  position: relative;
+  bottom: 1450px;
+  right:-120px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px;
+}
+label#NormalM{
+  text-align: left;
+  position: relative;
+  bottom: 1150px;
+  left: 50px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px;
+}
+label#VegM{
+  text-align: right;
+  position: relative;
+  bottom: 1750px;
+  right:-170px;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px;
+}
+label#FrenchF{
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  bottom: 1500px;
+  left: 120px;
+  text-shadow: 2px 2px 4px;
+}
+#Sandwich{
+  position: relative;
+  bottom: 1300px;
+  background: black;
+  color: white;
+}
+img#Vegsandwich{
+  position: relative;
+  bottom: 1000px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#Paneersandwich{
+  position: relative;
+  bottom: 1610px;
+  left: 600px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#Cheesesandwich{
+  position: relative;
+  bottom: 1350px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#Chickensandwich{
+  position: relative;
+  bottom: 1960px;
+  left: 600px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+label#VegS{
+  text-align: left;
+  font-size: 40px;
+  position: relative;
+  bottom: 1100px;
+  left:40px;
+  text-shadow: 2px 2px 4px;
+}
+label#PaneerS{
+  text-align: right;
+  font-size: 40px;
+  position: relative;
+  bottom: 1705px;
+  right: -200px;
+  text-shadow: 2px 2px 4px;
+}
+label#CheeseS{
+  text-align: left;
+  font-size: 40px;
+  position: relative;
+  bottom: 1400px;
+  left: 20px;
+  text-shadow: 2px 2px 4px;
+}
+label#ChickenS{
+  text-align: right;
+  font-size: 40px;
+  position: relative;
+  bottom: 2010px;
+  right:-240px;
+  text-shadow: 2px 2px 4px;
+}
+#Burger{
+  position: relative;
+  bottom: 1750px;
+  background: black;
+  color: white;
+}
+img#Vegburger{
+  position: relative;
+  bottom: 1500px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#Paneerburger{
+  position: relative;
+  bottom: 2105px;
+  left: 600px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#Chickenburger{
+  position: relative;
+  bottom: 1900px;
+  left: 300px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+label#VegB{
+  text-align: left;
+  font-size: 50px;
+  position: relative;
+  bottom: 1550px;
+  left: 80px;
+  text-shadow: 2px 2px 4px;
+}
+label#PaneerB{
+  text-align: right;
+  font-size: 50px;
+  position: relative;
+  bottom: 2160px;
+  right: -150px;
+  text-shadow: 2px 2px 4px;
+}
+label#ChickenB{
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  bottom: 1940px;
+  left: 120px;
+  text-shadow: 2px 2px 4px;
+}
+#Others{
+  position: relative;
+  bottom: 1800px;
+  background: black;
+  color: white;
+}
+img#Ckebab{
+  position: relative;
+  bottom: 1500px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#Iranitea{
+  position: relative;
+  left: 600px;
+  bottom: 2120px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#Zafrantea{
+  position: relative;
+  bottom: 1880px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+img#Buttertea{
+  position: relative;
+  left: 600px;
+  bottom: 2500px;
+  padding: 0;
+  border: 5px solid black;
+  box-shadow: 4px 4px 6px;
+}
+label#Kebab{
+  text-align: left;
+  font-size: 50px;
+  position: relative;
+  bottom: 1600px;
+  left: 50px;
+  text-shadow: 2px 2px 4px;
+}
+label#IraniT{
+  text-align: right;
+  font-size: 50px;
+  position: relative;
+  bottom: 2220px;
+  right: -80px;
+  text-shadow: 2px 2px 4px;
+}
+label#ZafranT{
+  text-align: left;
+  font-size: 50px;
+  position: relative;
+  bottom: 1950px;
+  left: 100px;
+  text-shadow: 2px 2px 4px;
+}
+label#ButterTea{
+  text-align: right;
+  font-size: 50px;
+  position: relative;
+  bottom: 2585px;
+  right: -100px;
+  text-shadow: 2px 2px 4px;
+}
+h4{
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  bottom: 2200px;
+  left: 120px;
+}
+a#Rateus{
+  text-align: center;
+  position: relative;
+  bottom: 2100px;
+  left: 200px;
+  font-size: 50px;
+  text-decoration: none;
+  color: brown;
+}
