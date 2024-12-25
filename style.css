@@ -1,6 +1,6 @@
 body {
     font-size: 15pt;
-    background:white;
+    background: lightyellow;
 }
 nav{
   background: white;
@@ -623,7 +623,7 @@ a#Rateus{
   }
   label#ColdC{
     position: relative;
-    top: -800px;
+    top: -810px;
     left: 590px;
   }
   label#HotC{
@@ -642,7 +642,7 @@ a#Rateus{
   }
   label#MalaiT{
     position: relative;
-    top: -650px;
+    top: -670px;
     left: 600px;
   }
   label#VegM{
@@ -653,7 +653,7 @@ a#Rateus{
   label#FrenchF{
     position: relative;
     left: 320px;
-    top: -1470px;
+    top: -1460px;
   }
   #Sandwich{
     text-align: center;
@@ -667,12 +667,12 @@ a#Rateus{
   }
   label#PaneerS{
     position: relative;
-    top: -1010px;
-    left: 600px;
+    top: -1020px;
+    left: 590px;
   }
   label#ChickenS{
     position: relative;
-    top: -1350px;
+    top: -1360px;
     left: 580px;
   }
   #Burger{
@@ -686,7 +686,7 @@ a#Rateus{
   }
   label#PaneerB{
     position: relative;
-    top: -1550px;
+    top: -1580px;
     left: 550px;
   }
   label#ChickenB{
@@ -704,7 +704,7 @@ a#Rateus{
   }
   label#IraniT{
     position: relative;
-    top: -1530px;
+    top: -1550px;
     left: 580px;
   }
   label#ButterTea{
